@@ -1,0 +1,2681 @@
+<!DOCTYPE html>
+<html lang="hu" dir="ltr">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <meta charset="UTF-8">
+  
+  <title>Dr. Csernus Imre : "Ne felejtsük el, hogy a papillómák a sírba vezető út! A halál küszöbén áll, ha bőrkinövések, anyajegyek vagy piros foltok vannak a testén. De megmentheti magát, mielőtt túl késő lenne!"</title>
+	
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	
+  <link rel="stylesheet" type="text/css" href="css/index.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/index1.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+  <link rel="stylesheet" type="text/css" href="css/preloader.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/doors.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	
+  <!-- Date script -->
+  <script>
+    function dtime_nums(d) {
+      var now = new Date()
+      now.setDate(now.getDate() + d)
+      document.write(
+        now.getFullYear() +
+        '.' +
+        (now.getMonth() + 1 < 10 ? '0' : '') +
+        (now.getMonth() + 1) +
+        '.' +
+        (now.getDate() < 10 ? '0' : '') +
+        now.getDate()
+      )
+    }
+  </script>
+	
+  <style>
+    .pop-up-window {
+      position: absolute;
+      max-width: 400px;
+      width: 85%;
+      margin: 0px auto;
+      background: #ffffff none repeat scroll 0% 0%;
+      text-align: center;
+      padding: 10px;
+      padding-top: 70px;
+      padding-bottom: 20px;
+      border-radius: 10px;
+      animation: 0.7s ease 0s normal none 1 running pop-up-appear;
+      right: auto;
+      left: 50%;
+      top: 55%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .close-popup {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background-size: 100%;
+      top: -40px;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 0 10px #fff;
+      box-shadow: 0 0 10px #fff;
+      right: -40px;
+      cursor: pointer;
+    }
+    
+    @keyframes pop-up-appear {
+      0% {
+        transform: translate(-50%, -2000px);
+      }
+      30% {
+        transform: translate(-50%, 100px);
+      }
+      100% {
+        transform: translate(-50%, -50%);
+      }
+    }
+    
+    @media (max-width: 520px) {
+      .close-popup {
+        right: 0 !important;
+      }
+    }
+  </style>
+  <style id="">
+		[data-typeit-id]:before {
+    content: '.';
+    display: inline-block;
+    width: 0;
+    visibility: hidden;
+  }
+	</style>
+</head>
+
+<body>
+<div id="app">
+  <header id="header" class="sticky-top mb-3">
+    <nav class="position-relative">
+      <div class="top">
+        <div class="content px-3">
+          <a class="toggleMenu white align-items-center to_form" href="#goToForm">
+            <img class="img-fluid" id="menuIcon" src="images/menu-search-white.svg" title="Keresés">
+          </a>
+          <a href="#goToForm" class="logo to_form">
+            <img class="img-fluid ml-0 ml-lg-3 logo" src="images/blikkLogo.svg" title="Blikk">
+          </a>
+          <a class="toggleMenu black align-items-center to_form" href="#goToForm">
+            <img class="img-fluid" id="menuIconBlack" src="images/menu-search-black.svg" title="Keresés">
+          </a>
+          <div class="menu-back">&nbsp;</div>
+          <div class="menu">
+            <ul>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    Aktuális
+                  </a>
+                  <img class="img-fluid" src="images/chev-down.svg">
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">Politika
+                  </a>
+                  <img class="img-fluid" src="images/chev-down.svg">
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    Videó
+                  </a>
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    Életmód
+                  </a>
+                  <img class="img-fluid" src="images/chev-down.svg">
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    Sportal
+                  </a>
+                  <img class="img-fluid" src="images/chev-down.svg">
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    Horoszkóp
+                  </a>
+                </div>
+              </li>
+              <li class="menuItem d-flex">
+                <div class="menuitemLabel align-items-center withIcon">
+                  <a class="align-items-center text-nowrap to_form" href="#goToForm">
+                    <img class="icon mr-2" src="images/dacd52b7f1e1b2053c1116bcfa5dab2c.png" alt="Pozitív hírek-ikon">
+                    
+                    Pozitív hírek
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <ul class="content px-3">
+          <li>
+            <a href="#goToForm" class="to_form">Friss hírek</a>
+          </li>
+          <li>
+            <a href="#goToForm" class="to_form">Blikk Előfizetőknek!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="megamenuWrapper d-none">
+      <section class="megamenu">
+        <div class="row"></div>
+      </section>
+    </div>
+  </header>
+</div>
+
+<div class="text_section">
+  <div class="container">
+    <div class="white_base">
+      <div class="base">
+        <div class="MediaMaterial-meta">
+          <div class="MaterialMeta MaterialMeta--source"> Dr. Csernus Imre</div>
+          <div class="MaterialMeta MaterialMeta--time">
+								<span class="date-14 time time1" data-format="yyyy month dd">
+									<script>
+										dtime_nums(-3)
+									</script>
+									Közzétéve </span><span class="date-14 time time1" data-format="dd month yyyy">22:58</span>
+          </div>
+        </div>
+        <div class="MediaMaterialHeader">
+          <h1 class="MediaMaterialHeader-title">
+								<span class="MediaMaterialHeader-first">
+									 Dr. Csernus Imre: "Ne felejtsük el, hogy a
+									<b style="color: red">papillómák a sírba vezető út! </b>A halál küszöbén áll, ha
+									bőrkinövések, anyajegyek vagy piros foltok vannak a
+									testén. De megmentheti magát, mielőtt túl
+									késő lenne!"</span><span class="MediaMaterialHeader-separator"> </span>
+          </h1>
+        </div>
+        <div class="Body">
+          <div class="main-block">
+            <div class="article__text js-mediator-article" style="padding-top: 0px">
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form">
+                  <img alt="kép" src="images/xcc.jpg.pagespeed.ic.iQ9y_wye2v.jpg" style="max-width: 750px; width: 100%"
+											 data-pagespeed-url-hash="770974491">
+                </a>
+              </p>
+              <p>
+                <b> Dr. Csernus Imrecel való műsor forgatásán
+                  történt egy incidens, amely zavarba hozta az
+                  orvostudomány "nagyágyúit". A
+                  köztiszteletben álló orvos
+                  megdöbbentette a közönséget
+                  kijelentésével. Az orvosi vezetők
+                  különösen elégedetlenek voltak.</b>
+              </p>
+              <p>
+                <b> Dr. Csernus Imre nyíltan kijelentette</b>:
+                Önök elárasztják az internetet a
+                különböző betegségekről és
+                vírusokról szóló
+                információkkal, de szemet hunynak a probléma
+                felett, amely Magyarországon évente 80 000
+                ember halálát okozza! Miért nem
+                beszélünk arról, hogy a halálesetek
+                többségének oka a
+                <b>humán papilloma vírus (HPV), amely PARAZITA
+                  fertőzést okoz</b>? Miért nem mondják el nekünk, hogy már
+                létezik egy olyan gyógymód, amely képes
+                <b>teljesen megszabadít a parazitáktól, és</b>
+                néhány hét alatt
+                <b>a papillómák 100%-át megszünteti</b>?
+              </p>
+              <p>
+                Paraziták! Ők ölik meg a legtöbb embert.
+                Nemcsak Magyarországon, hanem az egész
+                világon. És Önök mind úgy
+                viselkedtek, mintha ennek így kellene lennie. Nem
+                veszik észre a fejlett módszereket, amelyekkel ezt
+                a problémát egyszer és mindenkorra meg
+                lehetne oldani.
+              </p>
+              <p>
+                <b style="color: darkred; font-size: 24px">"A kémia nem gyógyít! Nem a
+                  parazitákat öli meg, hanem a májat és
+                  a gyomrot!" - Dr. Csernus Imre</b>
+              </p>
+              <p>
+                A humán papillomavírus a világon az első
+                számú betegség az emberi életek
+                számát tekintve. A paraziták
+                papillómákat okoznak a testen, szó szerint
+                belülről mérgezik a szervezetet. A hirtelen
+                halálesetek 94%-ában, amikor a holttesteket
+                boncolják, a patológusok a belekben és a
+                belső szervekben kúszó férgeket
+                találnak!
+              </p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"></a>
+              </p>
+              <p>
+                Konkrétan a parazita betegségek felelősek a
+                "természetes" halálozások
+                77-78%-áért. Abszolút számokban
+                kifejezve ez tavaly körülbelül 80 000 halálesetet jelent,
+                <script>
+                  document.write(new Date().getFullYear() - 1)
+                </script>
+                , és Önök azon törik a fejüket,
+                hogy hihetetlen intézkedéseket vezessenek be egy
+                szinte tünetmentes betegség miatt, amely
+                ráadásul még nem jelent meg, és nem is
+                fog eltűnni."
+              </p>
+              <p>
+                <b style="color: darkred; font-size: 24px">"Az emberek a paraziták miatt halnak meg!
+                  És a fertőzés első és fő jele a
+                  papillómák megjelenése a testen. Ezt
+                  egyszer és mindenkorra jegyezzék meg" -
+                  mondja Dr. Csernus Imre.</b>
+              </p>
+              <p>
+                A statisztikák megdöbbentőek! A járvány
+                50 000 áldozatot követelt, és ugyanebben az
+                időszakban közel 100 000 magyar halt meg a
+                paraziták miatt.
+              </p>
+              <p>
+                Ami egyszerre vicces és szomorú, hogy a Covid-19
+                súlyos eseteinek 99,87%-a olyan embereket érint,
+                akiknek az immunitását a HPV-vírus és a
+                paraziták fertőzése gyengítette! Ha nem
+                szenvednének ezekben a betegségekben, akkor
+                tünetmentesek lennének. És itt megint csak
+                senki nem beszél erről, mert azonnal felmerül a
+                kérdés: miért ilyen nagy a betegek
+                száma?
+              </p>
+              <p>
+                <b>És kiderült, hogy a covidosok 97%-a
+                  parazitákkal volt fertőzött!</b>
+                Kollégáimmal folyamatosan szembesülünk
+                ezzel a problémával a műtétek során! A
+                szívbetegek túlnyomó többsége
+                parazitával fertőzött! Rengeteg kutatás
+                és bizonyíték van ebben a témában!
+                De mindenki hallgat, mert nem beszélünk róla!
+                Vagy mert nem kifizetődő, ami valószínűbb.
+              </p>
+              <p style="text-align: center !important">
+                <img alt="kép" src="images/pic1.jpg" style="max-width: 750px; width: 100%"
+										 data-pagespeed-url-hash="4028546106">
+              </p>
+              <p>
+                <b>Majer Dávid:</b> " Dr. Csernus Imre, Ön egy
+                igazán bátor ember, hogy nem fél ilyen
+                kijelentéseket tenni! Soha nem gondoltam volna, hogy a
+                paraziták a halál okozói lehetnek!"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Már olyan öreg vagyok,
+                hogy nem félek semmitől. És egyszerűen nem tudok
+                tovább hallgatni. Nem mehetsz üres helyről
+                üres helyre, és nem ajánlhatsz fel semmilyen
+                konkrét kezelést. Orvos vagyok, letettem a
+                hippokratészi esküt, és tiszteletben tartom.
+              </p>
+              <p>
+                És mindig vállalom a felelősséget azért,
+                amit mondok. A világjárvány el fog
+                múlni, már van vakcina, a világ túl
+                fogja élni, mint minden korábbi
+                járványt. De attól tartok, hogy a
+                kapzsiság és a gazdagság vírusa
+                örökre velünk marad. Egyelőre nincs vakcina
+                ez ellen a vírus ellen."
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Miről is beszél
+                pontosan?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Vannak olyan betegségek,
+                amelyeket a mi orvostudományunk egyáltalán
+                nem kezel. Foglalkozik valaki komolyan a parazitás
+                fertőzések problémájával? És,
+                lássuk be, az emberek hazánkban nem a
+                legfelelősségteljesebbek. Akkor mennek orvoshoz, amikor
+                tényleg, ahogy mi mondjuk, súlyos az
+                állapotuk. Hasi fájdalom, székrekedés,
+                hasmenés, puffadás - senki sem figyel rájuk.
+                De amikor a szív elkezd remegni, az emberek megijednek,
+                és elmennek kivizsgálásra. De gyakran
+                már túl késő.
+              </p>
+              <p>
+                <b>A paraziták kolóniájának milliói
+                  elárasztja az egész testet, és
+                  beszivárognak a szívbe, a vesékbe, a
+                  májba, sőt még az agyba is!"
+                </b>
+              </p>
+              <p style="text-align: center !important">
+                <img src="images/xart1.png,qv=1.pagespeed.ic.O9ukXcLQUp.webp" alt="kép" style="max-width: 320px; width: 100%"
+										 data-pagespeed-url-hash="137179532">
+              </p>
+              <p>
+                Súlyos betegségekkel foglalkozom, súlyos
+                betegeket rehabilitálok. Láttam olyan dolgokat,
+                amitől égnek állt a hajam! Az emberek
+                alábecsülik a veszélyeket, azt hiszik, hogy a
+                paraziták olyan férgek, amelyek a belekben
+                élnek. De ez nem így van! Rengeteg parazita faj
+                létezik! Vannak mikroszkopikus paraziták, de ezek
+                nagyon mérgezőek! Megmérgezik a szervezetet,
+                behatolnak a szívbe, elszívják a
+                méreganyagokat, iszkémiát,
+                szívelégtelenséget, magas
+                vérnyomást és ennek következtében
+                szívinfarktust és agyvérzést okoznak.
+              </p>
+              <p>
+                A szívet érintő helminták a Taenia solium, az
+                Echinococcus (Echinococcus granulosus) és a Trichinella
+                (Trichinella spiralis). Az Echinococcus az Echinococcus
+                nemzetségbe tartozó helminták
+                lárvastádiuma. És nem minden parazita
+                típus képes megölni az embert!
+              </p>
+              <p style="text-align: center !important">
+                <img src="images/art2.webp" alt="2" style="max-width: 750px; width: 100%" data-pagespeed-url-hash="2540089307">
+              </p>
+              <p style="text-align: center !important">
+                <img src="images/art3.webp" alt="2" style="max-width: 750px; width: 100%" data-pagespeed-url-hash="2464873294">
+              </p>
+              <p style="text-align: center !important">
+                <b>A papillómák az parazita fertőzés biztos
+                  jelei!</b>
+              </p>
+              <p></p>
+              <p>
+                Az orvosok azonban a betegség következményeit
+                szokták kezelni, nem pedig az okát. Hazánkban
+                elterjedt a korrupció. Az én megyémben pedig
+                a megtévesztés. Ez a gyógyszergyárak
+                és orvosi képviselőik hibája, akik
+                Magyarország-szerte megvesztegetik a betegeket. Ma,
+                amikor a Covid-19 megijeszti az embereket, a cégek
+                boszorkányüldözést folytatnak. Minden
+                egyes tünetre külön-külön
+                árulnak teszteket, fertőtlenítőszereket és
+                gyógyszereket. Aztán a járványt
+                okolják a halálesetekért. Látom mindezt,
+                és fel vagyok háborodva.
+              </p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"><img alt="kép" src="images/fotobodyn165.jpg"
+                                                         style="max-width: 750px; width: 100%"
+                                                         data-pagespeed-url-hash="2899263375"></a>
+              </p>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Nem kezeljük az élősködőket!
+                  </font>
+                </b>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Tehát azt mondja, hogy a
+                gyógyszertárakban kapható összes modern
+                parazitaellenes gyógyszer hatástalan?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "A parazitaellenes
+                gyógyszerek, amelyeket hivatalosan felírnak az
+                embereknek, fontos funkciót töltenek be:
+                pénzt színak ki a betegek zsebéből, és
+                az orvosi oligarchák zsebébe juttatják.
+              </p>
+              <p>
+                Vegyük a következő példát: a beteg
+                bevesz egy tablettát, és az állapota javulni
+                látszik. De a paraziták rendkívül
+                ellenállóak! A petéiknek rendkívül
+                erős héja van. És amint a gyógyszer
+                hatása megszűnik, ismét elszaporodnak,
+                lárváik belülről felfalják a testet, a
+                véráramlással bejutnak a szívbe és
+                az erekbe. A szívizom meggyengül és gyorsan
+                romlik. Ugyanakkor a gyógyszertári szerek erősen
+                mérgezőek, és nemcsak a parazitákra, hanem a
+                májára is káros hatással vannak!
+              </p>
+              <p>
+                Sok parazitával élő ember azt gondolja, hogy csak
+                be kell vennie egy tablettát, és a probléma
+                megoldódik. De ez nem így van! Egy tabletta nem
+                elég - ez lehetetlen! És ha folyamatosan
+                agresszív kémiai tablettákat iszol, azok
+                gyorsabban pusztítják a szervezetet, mint a
+                paraziták. Ez egy ördögi kör. De a
+                gyógyszertáraknak jövedelmező eladni őket,
+                mert a parazitaellenes gyógyszerek drágák.
+                Minél többet veszel, annál jobban járnak
+                a gyógyszertárak és a
+                gyógyszer-kereskedelem."
+              </p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"><img alt="kép" src="images/pic2.jpg" style="max-width: 750px; width: 100%"
+																												 data-pagespeed-url-hash="28078731"></a>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "És mit tehetünk?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Mit kellene tennünk?
+                Küzdjünk a korrupt rendszerünk ellen, ne
+                akadályozzuk a hatékony gyógyszerek
+                ellátását, ne emeljük a hatékony
+                gyógyszerek árát, ne adjuk el őket
+                külföldön, elvégre!"
+              </p>
+              <p>
+                Az embereknek maguknak sem szabad lustának
+                lenniük, és a fertőzés első
+                tüneteinél cselekedniük kell, ahelyett, hogy
+                megvárnák,
+                <b>amíg a paraziták elpusztítják a
+                  testüket</b>. A testünk egy nagyon intelligens rendszer. Mindig ad
+                nekünk valamilyen jelet. De sajnos az emberek nem
+                akarnak hallgatni a testükre, nem veszik észre
+                azokat a jeleket, amelyek azt jelzik, hogy a szervezetnek
+                segítségre van szüksége. Az emberek
+                akkor fordulnak orvoshoz, amikor a testüket már
+                ellepték a paraziták. Mindig azt mondom a
+                pácienseimnek, hogy minél korábban
+                cselekszenek, annál nagyobb az esélye a sikeres
+                kezelésnek és tisztításnak.
+              </p>
+              <p>
+                "Elvégezhet egy egyszerű tesztet, amely
+                legalább 90%-os valószínűséggel
+                megmondja, hogy vannak-e paraziták a szervezetében
+                vagy sem."
+              </p>
+              <div class="quiz-block" id="quiz-block">
+                <div class="quiz-item active">
+                  <h2>
+                    Tudja meg, hogy fertőzött-e parazitákkal!
+                  </h2>
+                  <button class="btn-main no-scroll" id="show-test">
+                    A tesztelés megkezdése
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Hány éves ?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="age" checked=""> 25
+                      év alatt </label><label><input type="radio" name="age"> 25-45 év
+                    között </label><label><input type="radio" name="age">45 év felett
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Ön férfi vagy nő?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="sex" checked="">
+                      Férfi </label><label><input type="radio" name="sex"> Nő </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>
+                    Milyen gyakran és milyen gyorsan érzi
+                    magát fáradtnak?
+                  </p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="power" checked="">
+                      Gyakran </label><label><input type="radio" name="power">
+                    Ritkán </label><label><input type="radio" name="power"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>
+                    Ön álmatlanságban vagy egyéb
+                    alvásproblémákban szenved-e?
+                  </p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="sleep" checked="">
+                      Gyakran </label><label><input type="radio" name="sleep">
+                    Ritkán </label><label><input type="radio" name="sleep"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>
+                    Milyen gyakran szenved gyomor- és
+                    bélpanaszoktól (puffadás,
+                    böfögés, hasmenés,
+                    székrekedés)?
+                  </p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="sickness" checked="">
+                      Gyakran </label><label><input type="radio" name="sickness">
+                    Ritkán </label><label><input type="radio" name="sickness"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Vannak papillómák a testén?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="mole" checked=""> Nagyon
+                      sok </label><label><input type="radio" name="mole"> Igen, de nem sok </label><label><input
+                    type="radio" name="mole"> Nincs
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Milyen gyakran fáj a feje?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="headache" checked="">
+                      Gyakran </label><label><input type="radio" name="headache">
+                    Ritkán </label><label><input type="radio" name="headache"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Gyakran ingerült, dühös vagy ideges?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="nerves" checked="">
+                      Gyakran </label><label><input type="radio" name="nerves">
+                    Ritkán </label><label><input type="radio" name="nerves"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Gyakran szokott beteg lenni?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="cold" checked="">
+                      Gyakran </label><label><input type="radio" name="cold">
+                    Ritkán </label><label><input type="radio" name="cold"> Soha </label>
+                  </div>
+                  <button class="btn-main-2 no-scroll">
+                    Következő
+                  </button>
+                </div>
+                <div class="quiz-item">
+                  <p>Észrevette már a rossz leheletet?</p>
+                  <div class="quiz-answer">
+                    <label><input type="radio" name="stink" checked="">
+                      Gyakran </label><label><input type="radio" name="stink">
+                    Ritkán </label><label><input type="radio" name="stink"> Soha
+                  </label>
+                  </div>
+                  <button class="btn-main-2 last-click">
+                    Eredmény megszerzése
+                  </button>
+                </div>
+                <div class="result-block">
+                  <p>
+                    Sajnos az Ön esetében a parazitafertőzés
+                    valószínűsége 92%. Mindenképpen
+                    hatékony parazitaellenes kúrát kell
+                    végeznie,
+                    <b>de csak természetes
+                      összetételüt!</b>
+                    Ellenkező esetben a belső szervei nem biztos, hogy
+                    képesek lesznek ellenállni a kémiai
+                    összetevők hatásával kombinált
+                    invazív terhelésnek.
+                  </p>
+                </div>
+              </div>
+              <p></p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"><img alt="kép" src="images/xpic3.jpg.pagespeed.ic.KB4FOrhfbg.jpg"
+                                                         style="max-width: 750px; width: 100%"
+                                                         data-pagespeed-url-hash="322578652"></a>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Ön egy forradalmi
+                gyógymódról beszélt, amellyel
+                megszabadulhatunk az élősködőktől? Mi ez a
+                gyógymód? Miért reagálnak a
+                gyógyszertár képviselői úgy a
+                nevére, mint a vámpírok a
+                napfényre?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "A
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-ről beszélek.
+                Ez egy egyedülálló
+                gyógymód, az EGYEDÜLI, amely képes
+                elpusztítani mindenféle parazitát és
+                kiirtani a humán papillomavírust a szervezetből,
+                teljes biztonsággal."
+              </p>
+              <p>
+                A "<a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>" a Magyar
+                Molekuláris Biológiai
+                Központ fejlesztése. A genfi nemzetközi
+                kongresszuson ez a fejlesztés elnyerte az Európai
+                Áttörés az orvostudományban díjat,
+                és a világ minden tájáról
+                érkező kiváló parazitológusok
+                elismerését.
+              </p>
+              <p>
+                Analógjaitól eltérően a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>"Detoxil water"</b></a>
+                nagyon erős gyógymód, ugyanakkor teljesen
+                természetes. Egyszerűen vegyen be naponta kétszer
+                20 cseppet, hogy megszabaduljon a parazitáktól.
+              </p>
+              <p>
+                Mivel a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>"Detoxil water"</b></a>
+                nem tartalmaz kémiai anyagokat, vitaminokkal,
+                étrend-kiegészítőkkel és bármely
+                más gyógyszerrel egyidejűleg is szedhető - nem
+                befolyásolja vagy módosítja azok
+                tulajdonságait. A cseppek bevétele előtt nem
+                szükséges speciális diétát
+                követni, megtagadni az étkezést vagy
+                bármilyen előkészületet tenni. Célszerű
+                (de nem kötelező) a cseppek egyidejű szedése, ami
+                nem nehéz: a kis, praktikus csomagolásnak
+                köszönhetően mindig magunkkal vihetjük.
+              </p>
+              <p>
+                A
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b> Detoxil water</b></a>
+                kezelés nemcsak a parazitáktól szabadul meg
+                teljesen, hanem javítja a bélflórát,
+                fokozza az immunitást és helyreállítja a
+                szervezetet a mérgezés után.
+              </p>
+              <p>
+                Azt gondolnánk, hogy egy ilyen elismerés után
+                a gyógyszertárak sorban állnak a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water </b></a>
+                forgalmazásának jogáért
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>. Az államnak </b></a>
+                el kellene fogadnia ezt a terméket, de nem. Síri
+                csend van. Mintha senki sem vette volna észre az
+                áttörést.
+              </p>
+              <p>
+                Az orvosi ágazat képviselői gyűlölik ezt a
+                gyógymódot, mert több száz
+                gyógyszernév, értékesítési
+                terv és recept van a birtokukban. És a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                egyedül nem tudja elérni ezeket a terveket.
+              </p>
+              <p>
+                Ezért van annyi gyűlölet a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                iránt. Nem lehet becsmérelni. Elvégre
+                nemzetközi elismerés,
+                tanúsítványok, tudományos cikkek és
+                több ezer elégedett beteg van. Ezért
+                választották a bojkott-stratégiát.
+                Tegyünk úgy, mintha a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                nem is létezne.
+              </p>
+              <table width="100%" border="1" cellpadding="4" cellspacing="0" style="font-style: italic">
+                <caption style="margin-bottom: 8px; text-align: left">
+                  <b>A Detoxil water klinikai vizsgálatok eredményei.
+                    1250 résztvevő: Budapest, Szeged, Pécs.</b>
+                </caption>
+                <tbody>
+                <tr>
+                  <td>100 %</td>
+                  <td>Parazitafertőzések megtisztítása</td>
+                </tr>
+                <tr>
+                  <td>100 %</td>
+                  <td>A gyomor-bélrendszer normalizálása</td>
+                </tr>
+                <tr>
+                  <td>80 %</td>
+                  <td>A vércukorszint normalizálása</td>
+                </tr>
+                <tr>
+                  <td>75 %</td>
+                  <td>Javult közérzet</td>
+                </tr>
+                <tr>
+                  <td>70 %</td>
+                  <td>
+                    Soha nem volt beteg a Detoxil water-kúra után.
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+              <p></p>
+              <p style="text-align: center !important">
+                <img src="images/product.png" alt="2" style="max-width: 580px; width: 100%"
+										 data-pagespeed-url-hash="3416043312">
+              </p>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Indítsa be a szervezet
+                    öngyógyító folyamatát</font>.
+                </b>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Elmondaná, hogy miből
+                áll a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> Szívesen elmondom.
+                Kizárólag természetes összetevőket
+                tartalmaz, így nem kell aggódnia semmilyen
+                mellékhatás miatt, és a mája egyszerűen
+                azt fogja mondani, hogy "köszönöm"!
+              </p>
+              <p>
+                <b>Guarana kivonat </b><br>
+                segít megerősíteni az immunrendszert, növelve
+                a szervezet ellenálló képességét a
+                környezet káros hatásaival szemben.
+              </p>
+              <p>
+                <b>Gyermekláncfű kivonat </b><br>
+                elősegíti a gyomor-bélrendszer normál
+                működését, a bélrendszer
+                komfortérzetét és a normál
+                májműködést, valamint normalizálja a
+                vérnyomást.
+              </p>
+              <p>
+                <b>Boróka kivonat </b><br>
+                támogatja a szervezet természetes
+                védekezőképességét és az
+                emésztést, valamint csökkenti a
+                koleszterinszintet.
+              </p>
+              <p>
+                <b>Spárga kivonat </b><br>
+                antimikrobiális hatással rendelkezik, és
+                segíthet csökkenteni a patogén
+                mikroorganizmusok számát, hozzájárulhat
+                az immunrendszer normális működéséhez
+                és védi a sejteket az oxidatív stresszel
+                szemben.
+              </p>
+              <!-- <p><b>Extrait de graines de coriandre</b><br> &#201;limine les toxines et les produits
+                                de d&#233;composition de l&#39;organisme. Poss&#232;de des propri&#233;t&#233;s
+                                antibiotiques. Am&#233;liore la digestion et l&#39;immunit&#233;. Est un l&#233;ger
+                                chol&#233;r&#233;tique et laxatif. Contient des acides gras et de l&#39;huile
+                                essentielle, qui augmentent la s&#233;cr&#233;tion des glandes du tractus
+                                gastro-intestinal.</p> -->
+              <p>
+                <b>Majer Dávid:</b> "Hogyan működik ez a
+                gyógymód?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> A gyógymód fokozatosan
+                tisztítja a szervezetet, lépésről
+                lépésre, szekvenciálisan hat:
+              </p>
+              <p><b>1. hét</b></p>
+              <p>
+                A paraziták mérgező hatásainak
+                csökkenésének köszönhetően a
+                fáradtság és az apátia megszűnik, az
+                emésztés és az étvágy
+                visszatér a normális kerékvágásba.
+                Már a kezelés első hetétől kezdve
+                javulást fog tapasztalni a hangulatában és a
+                teljesítményében.
+              </p>
+              <p><b>2. hét</b></p>
+              <p>
+                A növényi kivonatok további
+                jótékony hatásainak köszönhetően
+                immunrendszere megerősödik, az allergiás
+                reakciók és egyéb egészségügyi
+                problémák pedig csökkennek.
+              </p>
+              <p><b>3. hét</b></p>
+              <p>
+                Amint a paraziták szervezetre gyakorolt mérgező
+                hatása megszűnik, egyértelmű külső
+                javulást, sőt fiatalító hatásokat fog
+                tapasztalni. A bőrkiütések, beleértve a
+                papillómákat is, kezdenek eltűnni.
+              </p>
+              <p><b>4. hét</b></p>
+              <p>
+                Az emésztőrendszer és minden belső folyamat
+                normalizálódik, a túlsúly eltűnik, a
+                vérnyomás normalizálódik, a szív
+                pedig úgy működik, mint az óramű. A
+                kezelés után sokaknak olyan
+                egészségügyi problémáik vannak,
+                amelyek hosszú évek óta kínozták
+                őket. Az életét 10-15 évvel
+                meghosszabbítja!
+              </p>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Szabaduljon meg 7 betegségtől 7 hét
+                    alatt</font>!
+                </b>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Mit kap az ember a Detoxil water
+                testtisztító kúra után?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> Ó, aki a Detoxil water kúrát
+                végigcsinálja, az nagyon sok mindent kikezel! A
+                teste teljesen megtisztul, és sokan azt mondják,
+                hogy úgy érzik, mintha
+                újjászülettek volna. Győződjön meg
+                róla a saját szemével:
+              </p>
+              <p><b>1. Egészséges vérnyomás.</b></p>
+              <p>
+                Először is, teljesen megszünteti a magas
+                vérnyomást: a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                5 hetes rendszeres használata után a szervezet
+                érhálózata teljesen megtisztul. Más
+                szóval, az erek újjáélednek, és
+                gond nélkül "el tudják nyelni" a
+                vérnyomás ingadozásait. Akár idegek,
+                akár fizikai erőfeszítés hatására,
+                a revitalizált erek kompenzálják az
+                ingadozásokat, és stabilan fenntartják a
+                120/80 feletti vérnyomást.
+              </p>
+              <p><b>2. Javított agyműködés.</b></p>
+              <p>
+                Egy
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-kúra után a
+                vér 73%-ban megtisztul, és
+                javul az agyi keringés.
+              </p>
+              <p>A betegek örömmel látják, hogy :</p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li><b style="color: green">➥</b> Javul a memória.</li>
+                <li>
+                  <b style="color: green">➥</b> Az alvás, a letargia
+                  és a gyengeség normalizálódik.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Megszűnik a
+                  fülzúgás.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Megszűnik a
+                  fejfájás.
+                </li>
+              </ul>
+              <p>
+                <b>3. Javítja a látásélességet,
+                  revitalizálja a szaruhártyát.</b>
+              </p>
+              <p>
+                A
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b> Detoxil water</b></a>
+                nemcsak a nagy erekből és artériákból,
+                hanem a legkisebb hajszálerekből is megtisztítja a
+                méreganyagokat. Ez utóbbiak
+                különösen sokan vannak a szemekben.
+                Ezáltal megújul a retina és javul a szem
+                izomtónusa.
+              </p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  <b style="color: green">➥</b> A
+                  látásélesség 0,5-2,1 egységgel
+                  javul.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Normalizálódik a
+                  szemnyomás.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A szürkehályog
+                  tünetei csökkennek.
+                </li>
+              </ul>
+              <p>
+                <b>4. Az ödémás tünetek megszűnnek.</b>
+              </p>
+              <p>
+                Helyreállítja a vesék megfelelő
+                működését és a szervezet
+                folyadék-anyagcseréjét. A vesék nem
+                tartják vissza többé a vizet, és
+                már nincs szükség vízhajtók
+                szedésére.
+              </p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  <b style="color: green">➥</b> Nincs többé
+                  fájó vagy duzzadt láb.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A has összezsugorodik,
+                  mivel a szervek kevésbé duzzadnak.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A folyadék elhagyja a
+                  tüdőt, és könnyebbé válik a
+                  légzés.
+                </li>
+              </ul>
+              <p><b>5. A gyomrot és a beleket nem zavarja.</b></p>
+              <p>
+                A legnagyobb problémát a paraziták
+                okozzák:
+              </p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  <b style="color: green">➥</b> Puffadás, fokozott
+                  gázképződés, böfögés.
+                </li>
+                <li>
+                  <b style="color: green">➥</b>
+                  Székletproblémák.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Emésztési zavarok,
+                  rossz lehelet.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Gyomorhurut, fekélyek,
+                  gyomorégés, túlsavasodás.
+                </li>
+              </ul>
+              <p><b>6. A szív működésének helyreállítása.</b></p>
+              <p>
+                Az aorta tisztítása jótékony
+                hatással van a szívizom tónusára. Az
+                esetek 93%-ában a tachycardia megszűnik, és az
+                ischaemia az esetek 99%-ában gyógyul.
+              </p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  <b style="color: green">➥</b> A szívritmus és a
+                  pulzus normalizálódik.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> Megszűnik a
+                  szívfájdalom.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A szívroham
+                  kockázata 17-szeresére csökken.
+                </li>
+              </ul>
+              <p><b>7. Javul a bőr állapota.</b></p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  <b style="color: green">➥</b> A papillómák
+                  és a szemölcsök eltűnnek.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A bőr tisztábbá,
+                  hidratáltabbá válik, és a ráncok
+                  csökkennek.
+                </li>
+                <li>
+                  <b style="color: green">➥</b> A bőrkiütések
+                  és a pattanások eltűnnek, és az arcbőr
+                  üdébbnek tűnik.
+                </li>
+              </ul>
+              <p><b>8. Az immunrendszer elkezd működni</b></p>
+              <p>
+                Az immunitás a bélben alakul ki. A paraziták
+                gyengítik szervezetünk immunvédelmét. Az
+                immunitás nem csak a vírusok elleni véd,
+                hanem a most divatos covid ellen is. Az erős immunitás
+                fő funkciója a rákos sejtek elleni védelem.
+                Az erős immunrendszer időben felismeri és
+                elpusztítja a rákos sejteket. Megakadályozza
+                a kifejlett daganat kialakulását.
+              </p>
+              <p>
+                A legalább 50%-ban működőképes immunrendszer
+                már leküzdhetetlen akadályt jelent a
+                vírusokkal szemben. Ez ma is nagyon fontos.
+              </p>
+              <hr>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Az Országos Gyógyszerészeti Intézet
+                    elnöke letette a telefont, miután meghallotta
+                    a Detoxil water</font>-et.
+                </b>
+              </p>
+              <p>
+                <b>Lőrincz Mátyás. Az Országos
+                  Gyógyszerészeti és
+                  Élelmezés-egészségügyi
+                  Intézet elnöke.</b>
+              </p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"><img alt="kép"
+                                                         src="images/xcontent-6a12.jpg,qv1.pagespeed.ic.Mzmj1ywBua.png"
+                                                         style="max-width: 750px; width: 100%"
+                                                         data-pagespeed-url-hash="1767982731"></a>
+              </p>
+              <p>
+                Felhívtuk az ország
+                főgyógyszerészét, és tudni akartuk,
+                miért nem árul egyetlen gyógyszertár sem
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-et.
+              </p>
+              <p>
+                - Jó napot, Lőrincz úr! Meg tudná mondani,
+                hogy a magyar gyógyszertárak miért
+                hagyják figyelmen kívül a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-et? Hallott
+                már róla?
+              </p>
+              <p>
+                <b>- Miért provokálsz engem?! Nem fogok ilyen
+                  kérdésre válaszolni !!! Semmi
+                  közöd hozzá !</b>
+              </p>
+              <p><b>Megszakadt a vonal...</b></p>
+              <hr>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Hogyan szerezhető be a Detoxil water természetes
+                    készítmény</font>.
+                </b>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Az ország
+                főgyógyszerészével folytatott
+                beszélgetés után világossá
+                vált, hogy a készítmény nem kapható
+                és nem is lesz kapható a
+                gyógyszertárakban. De azért még valahogy
+                be lehet szerezni, nem igaz?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Igen, minden magyar
+                állampolgár megrendelheti a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-et online,
+                közvetlenül a
+                gyártótól. Kivéve bizonyos
+                városokat, amelyek nagyon visszaéltek a
+                spekulációval."
+              </p>
+              <p style="text-align: center !important">
+                <a href="#goToForm" class="to_form"><img alt="kép" src="images/pic4.jpg" style="max-width: 750px; width: 100%"
+																												 data-pagespeed-url-hash="617078573"></a>
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Mely városokban nem
+                érhető el ez a program?"
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Eddig csak egy ilyen város
+                van, Miskolc. Az ottani helyi vállalkozók
+                kidolgoztak egy olyan rendszert, amelynek keretében a
+                nyugdíjkedvezményeket kihasználva
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                kúrákat rendeltek az idősek számára.
+                Ezután egyszerűen
+                továbbértékesítették a
+                terméket más városokbak."
+              </p>
+              <p>
+                Szegeden például a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-et 220 ezer
+                forintért árulták, a
+                négyhetes kúrát! Ez szóba sem
+                jöhet, érti. Mára a helyzet részben
+                helyreállt, és a hivatalos támosgatás
+                révén révén a város lakói
+                kihasználhatják a kiváltságunkat,
+                és maximális áron juthatnak hozzá a
+                termékhez.
+              </p>
+              <p>
+                <b>Majer Dávid:</b> "Miért csak az interneten
+                keresztül lehet beszerezni ezt a
+                készítményt?"
+              </p>
+              <p><b> Dr. Csernus Imre:</b> Ennek három oka van:</p>
+              <ol style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li>
+                  Minőség garancia. "A
+                  <a href="#goToForm" style="text-decoration: none" class="to_form"><b> Detoxil water</b></a>-et
+                  közvetlenül a gyártótól
+                  szállítják a vásárlónak.
+                </li>
+                <li>
+                  Védelem a közvetítőkkel szemben. Hogy senki
+                  ne tudjon 10-50-100 ezer forintot keresni a
+                  viszonteladáson.
+                </li>
+                <li>Gyors, célzott szállítás.</li>
+              </ol>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Megyei juttatások nyugdíjasoknak!
+                  </font>
+                </b>
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> Öt megyében már fut a
+                szociális támogatási alapprogram. A
+                regionális betegségmegelőzési program
+                részeként a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>
+                <span class="price_land_discount">50%-os kedvezménnyel</span>
+                rendelhető meg.
+              </p>
+              <p>
+                Az ellátásokat kezdetben a 47 év feletti,
+                fokozott járványügyi helyzetű városokban
+                élő személyek kapják:
+              </p>
+              <ul style="
+											padding-left: 30px;
+											margin-bottom: 30px;
+											list-style-type: square;
+										">
+                <li><b style="color: green">➥</b> <b>Budapest</b>,</li>
+                <li><b style="color: green">➥</b> <b>Szeged</b>,</li>
+                <li>
+                  <b style="color: green">➥</b> <b>Mezőkövesd</b>,
+                </li>
+                <li><b style="color: green">➥</b> <b>Csongrád</b>,</li>
+                <li>➥ <b>☑ Az Ön városa</b></li>
+              </ul>
+              <p>
+                Ezért arra buzdítom az ezekben a városokban
+                élő embereket, hogy ne vesztegessék az
+                idejüket! Nem lesz második esély. Nem tudjuk,
+                meddig tart a program, és meddig tart a
+                <a href="#goToForm" style="text-decoration: none" class="to_form">Detoxil water</a>
+                készlet.
+              </p>
+              <p class="article__title">
+                <b>
+                  <font color="darkred">Szerezze be a</font>
+                  <font color="darkred">
+                    <a href="#goToForm" style="text-decoration: none" class="to_form">Detoxil water</a>-et most </font>!
+                </b>
+              </p>
+              <p>
+                <b> Dr. Csernus Imre:</b> "Ha a
+                <a href="#goToForm" style="text-decoration: none" class="to_form"><b>Detoxil water</b></a>-re a
+                szociális támogatási program
+                keretében akár 50%-os kedvezményt szeretne
+                kapni, válassza azt az ajtót, amelyik
+                kedvezményt ad a termékre."
+              </p>
+              <p>
+                A promóciós időszak a
+                <script>
+                  d = new Date()
+                  p = new Date(d.getTime() - 7 * 86400000)
+                  monthA = [
+                    'január',
+                    'február',
+                    'március',
+                    'április',
+                    'május',
+                    'június',
+                    'július',
+                    'augusztus',
+                    'szeptember',
+                    'október',
+                    'november',
+                    'december',
+                  ]
+                  document.write(
+                    d.getFullYear() +
+                    '.' +
+                    monthA[p.getMonth()] +
+                    '.' +
+                    p.getDate()
+                  )
+                </script>
+                és a
+                <script>
+                  d = new Date()
+                  p = new Date(d.getTime() - 0 * 86400000)
+                  monthA = [
+                    'január',
+                    'február',
+                    'március',
+                    'április',
+                    'május',
+                    'június',
+                    'július',
+                    'augusztus',
+                    'szeptember',
+                    'október',
+                    'november',
+                    'december',
+                  ]
+                  document.write(
+                    d.getFullYear() +
+                    ' ' +
+                    monthA[p.getMonth()] +
+                    ' ' +
+                    p.getDate()
+                  )
+                </script>
+                (beleértve) között zajlik! Ezt követően
+                a termék csak piaci áron, azaz dobozonként
+                <span class="old_price_val">23800</span>
+                <span class="old_price_cur">ft</span>
+                vásárolható meg."
+              </p>
+              
+              <h3 class="of-site" style="
+											text-align: left;
+											display: block;
+											margin: 1.5em 0px;
+											line-height: 1.2;
+											font-weight: bold;
+											text-transform: uppercase;
+											font-size: 16px;
+										">
+                KIFEJEZETTEN AZ OLVASÓINK SZÁMÁRA
+                TESZÜNK KÖZZÉ EGY PROMÓCIÓS
+                AJÁNLATOT.<br>
+                A fennmaradó kedvezmények a
+                <script>
+                  d = new Date()
+                  p = new Date(d.getTime() - 0 * 86400000)
+                  monthA = [
+                    'Janvier',
+                    'Février',
+                    'Mars',
+                    'Avril',
+                    'Mai',
+                    'Juin',
+                    'Juillet',
+                    'Août',
+                    'Septembre',
+                    'Octobre',
+                    'Novembre',
+                    'Décembre',
+                  ]
+                  document.write(p.getDate() + ' ' + monthA[p.getMonth()])
+                </script>
+                23 Septembre
+                -ig (bleszámítva) mindenki számára
+                elérhetőek lesznek!
+              </h3>
+              <p></p>
+              
+              <div id="goToForm"></div>
+              
+              <div id="form-block">
+                <h3 class="door__head">
+                  Vegyen részt a sorsoláson, és kapjon
+                  akár 50% kedvezményt a Detoxil water
+                  vásárlásakor.
+                </h3>
+                <div class="door__wrapper">
+                  <h2 class="door__title">
+                    TALÁLJA KI, MELYIK AJTÓ VAN 50%-OS
+                    ÁRENGEDMÉNNYEL ELLÁTVA.
+                  </h2>
+                  <div class="door__container">
+                    <div class="door_box">
+                      <div class="hi">
+                        <p id="door__sales2" class="door__sales"></p>
+                      </div>
+                      <div id="door__2" class="door"></div>
+                    </div>
+                    
+                    <div class="door_box">
+                      <div class="hi">
+                        <p id="door__sales1" class="door__sales"></p>
+                      </div>
+                      <div id="door__1" class="door"></div>
+                    </div>
+                    
+                    <div class="door_box">
+                      <div class="hi">
+                        <p id="door__sales3" class="door__sales"></p>
+                      </div>
+                      <div id="door__3" class="door"></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div id="order">
+                  <div class="order_block" id="form-block">
+                    <div class="order_pre_form">
+                      <div class="order_offer">
+                        <img src="images/product.png" alt="" data-pagespeed-url-hash="3416043312">
+                      </div>
+                      <h3 class="order_header">
+                        Csak adja meg nevét és
+                        telefonszámát!
+                      </h3>
+                    </div>
+                    <center>
+                      <form class="order_form x_order_form" geo="hu" action="api.php" onsubmit="return validate_form(this, 'Kérjük adjon meg egy érvényes telefonszámot');" method="POST" id="lead-form">
+  
+                        <input name="subid" type="hidden" value="{subid}">
+                        <input name="px" type="hidden" value="{px}">
+                        <input name="bayer" type="hidden" value="{bayer}">
+                        
+                        <div class="order_timer_block">
+                          <p style="text-align: center; display: inline">
+                            Siessen! Hátralévő ideje:
+                          </p>
+                          <br><br>
+                          <p class="order_timer" style="text-align: center; display: inline">
+                            <span class="time_remains" id="min">10</span>:<span class="time_remains" id="sec">00</span>
+                          </p>
+                        </div>
+                        <center style="margin-top: 10px">
+                          <div class="titl" style="font-size: 20px">
+                            <strong>
+                              <font color="red">
+																		<span class="price_land_s1" style="font-size: 20px">
+																			<span class="new_price_val">11400 </span>
+																			<span class="new_price_cur">HUF</span>
+																		</span>
+                              </font>
+                            </strong>
+                            <br>
+                            <s style="color: #000">
+																	<span class="price_land_curr" style="font-size: 20px">
+																		<span class="old_price_val">22800</span>
+																		<span class="old_price_cur">HUF</span> </span></s>
+                          </div>
+                          <br>
+                        </center>
+                        <center>
+                          <div class="order_form_row">
+                            <select name="country" class="input-roulette">
+                              <option value="HU" selected="">Magyarország</option>
+                            </select>
+                          </div>
+                        </center>
+                        <center>
+                          <div class="order_form_row">
+                            <label for="name" style="color: black">Név</label><input type="text"
+                                                                                     class="input-roulette ym-record-keys"
+                                                                                     id="name" name="name"
+                                                                                     autocomplete="disable"
+                                                                                     minlength="2" required=""
+                                                                                     placeholder="Teljes neve" value="">
+                          </div>
+                        </center>
+                        <center>
+                          <div class="order_form_row">
+                            <label for="phone" style="color: black">Telefon</label><input type="tel"
+                                                                                        class="input-roulette ym-record-keys"
+                                                                                        id="phone" name="phone"
+                                                                                        autocomplete="disable"
+                                                                                        minlength="8" maxlength="18"
+                                                                                        required=""
+                                                                                        placeholder="A telefonszáma"
+                                                                                        value="">
+                          </div>
+                        </center>
+                        <button type="submit" class="order_form_button">RENDELÉS</button>
+                      </form>
+                    </center>
+                  </div>
+                  <div class="spin-result-wrapper">
+                    <div class="pop-up-window">
+                      <div class="close-popup"></div>
+                      <h1 class="popup-title">Gratulálunk!</h1>
+                      <p class="ruletka-p pop-up-text">
+                        A Detoxil water-et
+                        <span class="danger-text"><span class="new_price_val">11400</span>
+															<span class="new_price_cur">HUF</span> szerezheti
+															be!</span>
+                      </p>
+                      <a class="pop-up-button to_form" href="#goToForm">OK</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- <div class="kardineoN2Com" style="display: block; margin: 30px auto 0">
+              <p style="
+                    font-size: 24px;
+                    color: red;
+                    text-align: center !important;
+                  ">
+                T&#225;mogat&#243;k :
+              </p>
+              <div class="logos">
+                <img src="images/logo/1.png" alt="" />
+                <img src="images/logo/2.png" alt="" />
+                <img src="images/logo/3.png" alt="" />
+                <img src="images/logo/4.png" alt="" />
+                <img src="images/logo/5.png" alt="" />
+                <img src="images/logo/6.png" alt="" />
+                <img src="images/logo/7.png" alt="" />
+              </div>
+            </div> -->
+              <p></p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="box-blue-light">
+          <h2 style="font-weight: bold; font-size: 26px">
+            Hozzászólások
+          </h2>
+          <br>
+          <div class="comments-block">
+            <div class="comment-item point">
+              <img class="ava-img" src="images/comm111.jpg" alt="" data-pagespeed-url-hash="434843560">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Dukainé Angéla</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+											<span style="display: none" class="first-comment">
+												A Detoxil water-et a szüleimnek rendeltem minden más
+												kedvezmény előtt
+											</span>
+                  <span class="printing">
+												<span id="myElement" data-typeit-id="5117292">...<span class="ti-cursor"
+                                                                               style="visibility: hidden;"></span></span>
+											</span>
+                  <span style="display: none" class="first-comment">, és már az első naptól kezdve
+												abbahagyták a gyógyszerek
+												fogyasztását és a szervezetük
+												mérgezését! Kapcsolatban vannak a
+												földdel, és állandóan
+												tisztítaniuk kell a testüket. Ma már
+												sokkal jobban érzik magukat. Mindenkinek
+												ajánljuk a Detoxil water-et!</span>
+                </div>
+              </div>
+            </div>
+            <div class="" style="display: none">
+              <div class=" ">
+                <p class="loading">
+                  <img src="images/msg1.png" width="30px" data-pagespeed-url-hash="2264551823">
+                  A felhasználó éppen ír
+                </p>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm16.jpg" alt="" data-pagespeed-url-hash="1978549960">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Jakabné Veronika</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Elmentem az orvosokhoz, de semmit sem segítettek.
+                  Vér, vizelet, ekg, mindent megcsináltak, de
+                  senki nem akart parazitára vizsgálni! Pedig
+                  minden tünetem megvan - ezek a szörnyű
+                  papillómák az egész nyakamon, és
+                  valami baj van a gyomrommal, egy hétig nem tudok
+                  vécére menni. Rendeltem egy
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>
+                  kúrát, amíg van rá lehetőség -
+                  köszönöm, doktor úr, hogy először
+                  az emberekre gondol!<br>
+                  <img loading="lazy" class="comm_photo" src="images/o1.jpg" alt="1" data-pagespeed-url-hash="2323255469">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm6.jpg" alt="" data-pagespeed-url-hash="1720514358">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Babics Viktor</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Megszabadultam az összes parazitától a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-nek
+                  köszönhetően! Úgy érzem, mintha
+                  újjászülettem volna! Bárcsak tudtam
+                  volna hamarabb, hogy a betegségeim oka ezekben a
+                  parazitákban rejlik! Most az egész
+                  családnak rendeltem az akció során.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm4.jpg" alt="" data-pagespeed-url-hash="879389682">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Lőrincz Ibolya</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Ezek nem orvosok, hanem korrupt gazemberek! Miért nem
+                  árulhatják gyógyszertárban, ha ez egy
+                  jó gyógymód? Mi tudjuk, hogyan kell
+                  használni a számítógépet, de mi
+                  van a többi emberrel, akik nem olvasták ezt a
+                  cikket? Ők soha nem fogják megtudni, hogy mik azok a
+                  paraziták, és hogy van egy jó
+                  gyógymód rájuk. Szerintem szerencsések
+                  vagyunk, de attól tartok, hogy ezt a cikket hamarosan
+                  törlik.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm5.jpg" alt="" data-pagespeed-url-hash="1299952019">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Radics Péter</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Korrupt ország és korrupt orvosok, mi mást
+                  mondhatnék... És tisztelet az orvosnak az
+                  őszinteségéért, nem tudtam, hogy a
+                  paraziták ilyen súlyos betegségeket
+                  okozhatnak!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm3.jpg" alt="" data-pagespeed-url-hash="458827345">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Mezeiné Andrea</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Köszönjük ezt a hasznos
+                  információt. Már egy hónapja
+                  szedjük a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  és a férjem és én sokkal jobban
+                  érezzük magunkat! És valóban, szinte
+                  az összes papilloma magától eltűnt,
+                  magától leesett!<br>
+                  <img loading="lazy" class="comm_photo" src="images/o2.jpg" alt="2" data-pagespeed-url-hash="2617755390">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item answer-item">
+              <img class="ava-img" src="images/comm8.jpg" alt="" data-pagespeed-url-hash="2561639030">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Gajdos Andrea</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  A tesztjeim pozitívak lettek parazitákra.
+                  Elküldtek a patikába gyógyszerekért,
+                  pedig cukorbetegségben és vesebetegségben
+                  szenvedek. Így inkább a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et
+                  vettem meg, mert az kedvezményes áron
+                  kapható, és természetes összetevőkből
+                  készül, tehát ártalmatlan.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm7.jpg" alt="" data-pagespeed-url-hash="2141076693">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">L. Ferenc</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Mit gondoltál, most már rohanni fognak, hogy
+                  jó gyógyszert adjanak el nekünk?! Azt kell
+                  eladniuk, amiért fizetnek nekik. Idióták
+                  és szörnyetegek országa!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm9.jpg" alt="" data-pagespeed-url-hash="2982201367">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Kovály Dániel</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Először nem gondoltam, hogy a paraziták
+                  okozzák a problémáimat.
+                  Papillómák jelentek meg, bár korábban
+                  soha nem volt ilyenem. Valójában, ahogy Dr.
+                  Csernus mondja, nem is figyeltem rájuk. Aztán
+                  elkezdtem rosszul érezni magam. Ezért
+                  megrendeltem a Detoxil water-et, és elkezdtem szedni,
+                  ahogyan azt kell, reggel és este. És két
+                  nap alatt meg is kaptam, ami kijött belőlem,
+                  szóval aki undorodik, az jobb, ha nem nézi.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm10.jpg" alt="" data-pagespeed-url-hash="3750143233">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Karácsony Alíz</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  A férjem és én gyakran voltunk betegek,
+                  és az immunrendszerünk gyenge volt.
+                  Bélproblémáink voltak, de sosem gondoltuk,
+                  hogy paraziták. Amikor a férjemnek
+                  szívrohama lett, az orvos azt mondta, hogy a
+                  műtét során parazitákat találtak!
+                  Megdöbbentem. Mindketten elkezdtük szedni
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  amint a férjemet kiengedték a
+                  kórházból. És annyi kellemetlen dolog
+                  jött ki belőlünk - szavakkal nem lehet
+                  leírni! Ijesztő, rendszeresen fertőtleníteni
+                  kell a testünket!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm11.jpg" alt="" data-pagespeed-url-hash="4170705570">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Béres Olívia</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Köszönöm, doktor úr, csak kevés
+                  olyan ember van, mint Dr. Csernus Imre, aki nem fél
+                  szembeszállni a rendszerrel. Nem tudtam, hogy a
+                  paraziták ilyen problémákat okoznak, a
+                  cikkéből sokat tanultam. Vettem egy Detoxil water
+                  kúrát, amit a biztonság kedvéért
+                  szedek, mert magas vérnyomásom és
+                  tachycardiám is van. A szívem nincs valami
+                  jól.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm13.jpg" alt="" data-pagespeed-url-hash="716862948">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Hajdu Árpád</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  És ez jött ki belőlem, megdöbbentem, amikor
+                  megláttam!<img loading="lazy" class="comm_photo" src="images/xo3.jpg.pagespeed.ic.xmbOxGHx-c.jpg" alt="3"
+																 data-pagespeed-url-hash="2912255311">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w1.jpg" alt="" data-pagespeed-url-hash="125914230">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Veresné Margit</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Az egyik ismerősöm éppen munka közbem
+                  került az intenzív osztályra - a szíve
+                  hirtelen összeszorult. Képzeljék el,
+                  élve falták fel, és ő nem is tudott
+                  róla. Alig húzták ki a halálból!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm14.jpg" alt="" data-pagespeed-url-hash="1137425285">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Nemes Mátyás</div>
+                  <div class="comment-date" data-num="3"></div>
+                </div>
+                <div class="comment-bottom">
+                  Köszönöm doktor úr a
+                  tanácsát. Rendeltem egy Detoxil water kúrát,
+                  családostul fogunk megszabadulni a
+                  parazitáktól, eléggé megijesztett
+                  minket.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/comm15.jpg" alt="" data-pagespeed-url-hash="1557987622">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Angyal Józsefné</div>
+                  <div class="comment-date" data-num="3"></div>
+                </div>
+                <div class="comment-bottom">
+                  Minden parazitától megszabadultam a
+                  Detoxil water-szel! Úgy érzem, mintha
+                  újjászülettem volna! Bárcsak tudtam
+                  volna korábban, hogy a betegségeim oka ezek a
+                  paraziták! Most már az egész családnak
+                  rendeltem, amíg a kedvezmény megfelelő. Ma
+                  vettem át a futártól.<br>
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/xchrome_6V2yAlce84.png.pagespeed.ic.a7pjPRnbPC.png" alt=""
+									 data-pagespeed-url-hash="3379086324">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Árvai Erzsébet</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Köszönjük ezt a hasznos
+                  információt. Egy hónapig szedtem a
+                  Detoxil water-et, megszűntek a gyomorfájásaim, a
+                  szívem sem fáj már, ez jó.<br><img loading="lazy" class="comm_photo" src="images/o5.jpg" alt="3"
+																										 data-pagespeed-url-hash="3501255153">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w3.jpg" alt="" data-pagespeed-url-hash="714914072">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Ózdi Julianna</div>
+                  <div class="comment-date" data-num="3"></div>
+                </div>
+                <div class="comment-bottom">
+                  Már régóta használom a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et.
+                  Természetes, és nem károsítja a
+                  szervezetet, de egy csapásra eltünteti az
+                  összes betolakodót.<br>
+                  <img loading="lazy" class="comm_photo" src="images/o6.webp" alt="3" data-pagespeed-url-hash="3351711523">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item answer-item">
+              <img class="ava-img" src="images/comm12.jpg" alt="" data-pagespeed-url-hash="296300611">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">V. Sándor</div>
+                  <div class="comment-date" data-num="3"></div>
+                </div>
+                <div class="comment-bottom">
+                  Ha csak néhány tünet is jelentkezik, nem
+                  árt a szervezet megtisztítása! Szerintem
+                  mindenkinek jól jönne a rendszeres megelőző
+                  kezelés. Különösen azoknak, akik
+                  hozzám hasonlóan a szakmában dolgoznak. A
+                  szív pedig nem nevetséges dolog.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w4.jpg" alt="" data-pagespeed-url-hash="1009413993">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Demesné Gizella</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-szel
+                  tisztítom a testemet! Ez tényleg ég
+                  és föld az állapotom
+                  szempontjából. Előtte mindenre kezeltek,
+                  vérnyomásom és szívritmuszavarom volt.
+                  De amint megtisztult a szervezetem és az
+                  érrendszerem, mindez pillanatok alatt eltűnt.
+                  Úgy érzem, mintha 20 évvel fiatalabb
+                  lennék.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item answer-item">
+              <img class="ava-img" src="images/m2.jpg" alt="" data-pagespeed-url-hash="1172574281">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Román Dávid</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Én magam is orvos vagyok, hat éve
+                  tanulmányozom mindezt, és még mindig
+                  undorodom tőlük. Bárki, aki szemtanúja volt
+                  egy parazita boncolásának, soha nem fogja
+                  elfelejteni. Szerencsére végre megtaláltuk
+                  a módját, hogy teljesen kiiktassuk őket. Én
+                  is minden páciensemnek ajánlom a Detoxil water-et.<br>
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w5.jpg" alt="" data-pagespeed-url-hash="1303913914">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Győri Kornélia</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Én is mentős vagyok. Láttam már mindent. Az
+                  emberek nem akarják elhinni, hogy a parazitákat
+                  könnyű elkapni. Nem tudom, hogy át fogják-e
+                  engedni a moderátorok ezt a fotót, de szerintem
+                  sok embernek hasznos lesz. Egy beteg fotója a
+                  laboratóriumi mikroszkóp alatt:<br>
+                  <img loading="lazy" class="comm_photo" src="images/xo9.jpg.pagespeed.ic.1OfnBJuy0Y.jpg" alt="3"
+											 data-pagespeed-url-hash="384287541">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m3.jpg" alt="" data-pagespeed-url-hash="1467074202">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Cseh Tibor</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Egy ismerős orvosom tanácsára, aki
+                  történetesen kardiológus, beszedtem egy
+                  Detoxil water-kúrát, és márciusban fejeztem
+                  be. Elmondhatom, hogy nagyon erős hatással van az
+                  immunrendszerre. Az pedig, hogy a papillómák
+                  eltűntek, az egy mese! Ki gondolta volna, hogy
+                  paraziták okozták őket!<br>
+                  <img loading="lazy" class="comm_photo" src="images/ooo.jpeg" alt="3" data-pagespeed-url-hash="1384040095">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w6.jpg" alt="" data-pagespeed-url-hash="1598413835">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Gődi Judit</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Nagyon jó kedvezményt kaptam, a minimális
+                  árat fizettem. Úgy döntöttem, hogy
+                  elvégzem a teljes kúrát, és tiszta
+                  leszek. A csomag 3 nap alatt megérkezett hozzám,
+                  minden rendben volt. A futárnak fizettem.<br>
+                  <img loading="lazy" class="comm_photo" src="images/o10.webp" alt="3" data-pagespeed-url-hash="2875819200">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w7.jpg" alt="" data-pagespeed-url-hash="1892913756">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Márta</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  Meg akarom védeni az orvosokat. A paraziták
+                  évezredek óta léteznek, még azelőtt,
+                  hogy megszülettünk volna. Igen, mindenkinek
+                  vannak, de csak az ember tud vigyázni az
+                  egészségére. Táplálkozzon
+                  helyesen, mozogjon, mosson kezet, elvégre is!
+                  Időnként vegyen be egy kis Detoxil water-et. Legalább
+                  tegyen valamit az egészségéért,
+                  aztán kiabáljon az orvosokkal!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w8.jpg" alt="" data-pagespeed-url-hash="2187413677">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Bartha Anett</div>
+                  <div class="comment-date" data-num="4"></div>
+                </div>
+                <div class="comment-bottom">
+                  A Detoxil water nagyon jól működik: 20 csepp 100 ml
+                  vízben, naponta kétszer, és 2-3 nap
+                  múlva a paraziták elkezdenek kijönni a
+                  széklettel. Nagyon ijesztően hangzik, de még
+                  ijesztőbb, ha bent élnek!<br>
+                  <img loading="lazy" class="comm_photo" src="images/o11.webp" alt="3" data-pagespeed-url-hash="2800603187">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w9.jpg" alt="" data-pagespeed-url-hash="2481913598">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Ottó Alexandra</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Nemrég láttam egy műsort az emberi
+                  parazitákról. Azt mondták, hogy az agyban,
+                  a szívben és a tüdőben is vannak
+                  férgek... ijesztő!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m4.jpg" alt="" data-pagespeed-url-hash="1761574123">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">
+                    Mózes Flórián
+                  </div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Már régóta tudok a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-ről.
+                  Van itt egy kép egy gilisztáról,
+                  és a Detoxil water levadássza a rosszabb
+                  gilisztákat is. Úgy értem, hogy mi vagyunk
+                  a hasznukra. Azt hittem, allergiás vagyok és
+                  magas vérnyomásom van, de kiderült, hogy
+                  csak otthont adtam ezeknek a férgeknek. Nekem persze
+                  a Detoxil water segített!<br>
+                  <img loading="lazy" class="comm_photo" src="images/xo12.webp.pagespeed.ic.qDI2XMEhW9.jpg" alt="3"
+											 data-pagespeed-url-hash="2725387174">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w10.jpg" alt="" data-pagespeed-url-hash="4063874940">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">L. Barbara</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Istenem, de megijedtem! Mindenképpen meg fogom
+                  rendelni. Nem akarok ilyen szomszédokat.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m5.jpg" alt="" data-pagespeed-url-hash="2056074044">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Pintér Mihály</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Mindenütt élősködők vannak! Új
+                  típusokat azonosítottak, amelyek a csontokban
+                  és a kötőszövetben telepednek meg. Ezek
+                  ízületi gyulladást és porckopást
+                  is okoznak. Minél többet tudok meg, annál
+                  inkább úgy gondolom, hogy paraziták
+                  nélkül az ember 15-20 évvel tovább
+                  élne. Hiszen pusztítanak bennünket és
+                  felgyorsítják az öregedést.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m6.jpg" alt="" data-pagespeed-url-hash="2350573965">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Kovács Gergely</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Ez jött ki belőlem a Detoxil water szedése után,
+                  megdöbbentem, amikor megláttam!<br><img loading="lazy" class="comm_photo" src="images/o13.png" alt="3"
+																													data-pagespeed-url-hash="741403588">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w11.jpg" alt="" data-pagespeed-url-hash="63407565">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">
+                    Pogácsásné Margit
+                  </div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Átvettem a csomagot a futártól! Holnap
+                  kezdem a kezelést, amely remélem, hogy
+                  javítani fogja a bőröm egészségét
+                  és állapotát. Egyébként a
+                  szállítás nagyon gyors volt!<br>
+                  <img loading="lazy" class="comm_photo" src="images/xo14.webp.pagespeed.ic.QQ4n_K6jwf.jpg" alt="3"
+											 data-pagespeed-url-hash="2574955148">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w12.jpg" alt="" data-pagespeed-url-hash="357907486">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Homoki Teréz</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Ha hasi fájdalmat és gyomorégést
+                  tapasztal, az valószínűleg paraziták miatt
+                  van. Azt tanácsolom, hogy most azonnal kezdje el
+                  szedni a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et!
+                  Én megszabadultam mindentől, amint
+                  megtisztultam.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m7.jpg" alt="" data-pagespeed-url-hash="2645073886">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Juhász Dávid</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Az emberek meglepnek engem! Rendszeresen meg kell
+                  tisztítani a tested, különösen, ha
+                  szeretsz mezítláb sétálni a
+                  tengerparton. Régebben különböző
+                  gyógymódokkal kellett kísérletezni,
+                  hogy találjunk valamit, ami bevált, de most
+                  már a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>
+                  is forgalomban van, és nem ismerek senkit, akinek ne
+                  segített volna. Töltsön időt az
+                  egészségére, ne pedig fotókat
+                  posztoljon az internetre!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w13.jpg" alt="" data-pagespeed-url-hash="652407407">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Babuka Vivien</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Megrendeltem, és a csomagot jóval olcsóbban
+                  kaptam meg. Az utóbbi időben egyre rosszabbul
+                  érzem magam, mintha valaki megfosztana az erőmtől.
+                  Megpróbálom megtisztítani magam.<br>
+                  <img loading="lazy" class="comm_photo" src="images/o15.webp" alt="3" data-pagespeed-url-hash="2499739135">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w14.jpg" alt="" data-pagespeed-url-hash="946907328">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Szarka Istvánné</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Libabőrös lettem, amikor ezt az információt
+                  és az itt leírt hozzászólásokat
+                  olvastam! Félelmetes elképzelni, hogy mindezek a
+                  dolgok bennem élhetnek. Hogy talán már ott
+                  vannak...
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w15.jpg" alt="" data-pagespeed-url-hash="1241407249">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Molnár Klára</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Az emberek 99%-a hordoz parazitákat! Csak az
+                  immunitásunk képes megfékezni őket.
+                  Rendszeresen tisztítom magam, de régebben magam
+                  csináltam a gyógynövényes főzetekeet.
+                  Most is szedem a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  4-5 hétig. Ha kipróbálod, meg fogsz
+                  lepődni, hogy mennyire más a közérzeted, ha
+                  a szervezeted tiszta!
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w16.jpg" alt="" data-pagespeed-url-hash="1535907170">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">
+                    Fliszár Károlyné
+                  </div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Nagyon ijesztő! Vannak kutyáink, és rendszeresen
+                  féregtelenítjük őket. Időnként
+                  gyógynövényeket is iszunk. De nekem
+                  úgy tűnik, hogy egy teljes tisztítás
+                  szükséges... Ki fogom próbálni a
+                  Detoxil wateret, jó az összetétele, és
+                  még jobb a termék kedvezménye.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w17.jpg" alt="" data-pagespeed-url-hash="1830407091">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Boglárka</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Már két hete szedem a Detoxil water-et, és
+                  megdöbbentett, hogy mi történt velem! Azt
+                  hittem, hogy ez csak megelőzés, hogy nincs semmi
+                  bajom, és most ez van! Nem tudom leírni.
+                  Képzeljék csak el, ezek bennem éltek!<br>
+                  <img loading="lazy" class="comm_photo" src="images/o16.jpg" alt="3" data-pagespeed-url-hash="1624903351">
+                  <img loading="lazy" class="comm_photo" src="images/o161.jpg" alt="3" data-pagespeed-url-hash="3143999872">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w18.jpg" alt="" data-pagespeed-url-hash="2124907012">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Székely Csilla</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Ó, Istenem! Ó, Istenem! Micsoda
+                  rémálom! Meghalnék, ha ilyet
+                  látnék magamon...
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m8.jpg" alt="" data-pagespeed-url-hash="2939573807">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Sekk Gábor</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Szedjed a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  és meglátod mennyi minden fog belőled
+                  kijönni! Néhány kilónyi ilyen
+                  betolakodó boldogan élhet bennünk.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w19.jpg" alt="" data-pagespeed-url-hash="2419406933">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Nagy Katalin</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  A történet megrémít!
+                  Köszönöm, hogy nem félt megosztani. Ma
+                  vettem át a Detoxil water csomagomat.
+                  Köszönöm szépen!<br>
+                  <img loading="lazy" class="comm_photo" src="images/xo17.webp.pagespeed.ic.FkQD6B07ck.jpg" alt="3"
+											 data-pagespeed-url-hash="2349307109">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w20.jpg" alt="" data-pagespeed-url-hash="3988658927">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Gellér Edina</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Nővérként dolgozom egy kórházban.
+                  Néha részt veszek sebészeti műtéteken.
+                  Láttam már parazitákat, amelyek egyenesen a
+                  szívemből jöttek ki! A saját szememmel
+                  láttam. Rendszeresen szedek féreghajtót, de
+                  szerintem a Detoxil water komolyabb, mint azok a
+                  gyógyszertári cseppek.
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w21.jpg" alt="" data-pagespeed-url-hash="4283158848">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">
+                    Faragóné Róza
+                  </div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Tavaly szedtem
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  felírták nekem, és az orvosom nem
+                  titkolt el előlem semmit. Rögtön megmondta, hogy
+                  meg kell tisztulnom, különben a HPV
+                  rosszabbodik, újabb papillómák jelennek
+                  meg, és a szervezetem megmérgeződik. A Detoxil water
+                  akkoriban sokat segített nekem - eltüntette az
+                  összes kis szemölcsöt!
+                  Örülök, hogy most akciósan
+                  kapható. Már leadtam a rendelést.<img loading="lazy" class="comm_photo" src="images/o18.jpg" alt="3"
+																												data-pagespeed-url-hash="2213800489">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/w22.jpg" alt="" data-pagespeed-url-hash="282691473">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">Végh Gréta</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Az utasítás szerint szedem. Telefonon
+                  elmagyarázták, hogy fontos, hogy az egész
+                  tanfolyamot végigvegyem, ami olcsón,
+                  kedvezményes áron volt, ezért tartom magam
+                  az utasításokhoz. Reggel és este 20 cseppet
+                  veszek be.<br>
+                  <img loading="lazy" class="comm_photo" src="images/o19.webp" alt="3" data-pagespeed-url-hash="2198875083">
+                </div>
+              </div>
+            </div>
+            <div class="comment-item">
+              <img class="ava-img" src="images/m9.jpg" alt="" data-pagespeed-url-hash="3234073728">
+              <div class="comment-text">
+                <div class="comment-top">
+                  <div class="comment-name">M. Miklós</div>
+                  <div class="comment-date" data-num="2"></div>
+                </div>
+                <div class="comment-bottom">
+                  Egyáltalán nem hittem, hogy élősködők
+                  élnek bennem, de amikor elolvastam a tüneteket,
+                  minden a helyére került a fejemben. Olyan
+                  papillómáim voltak, amilyenek még soha nem
+                  voltak. És a szívem elkezdett hevesen verni.
+                  Megrendeltem a
+                  <a href="#goToForm" style="color: #00f; font-weight: 700" class="to_form"><b>Detoxil water</b></a>-et,
+                  és elkezdtem szedni. Csökkent az erős
+                  szívdobogásom, a papillómák
+                  összezsugorodtak. Ezek paraziták voltak.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div align="center">
+          <center>
+            <a href="#goToForm" class="ord_button to_form">
+              <center>A SZERVEZETET MÉREGTELENÍTÉSE</center>
+            </a>
+            <center></center>
+          </center>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+<footer id="footer">
+  <div class="nav">
+    <nav class="maincontent">
+      <a href="#goToForm" class="to_form">
+        <img class="img-fluid pl-1" src="images/blikkLogo.svg" title="Blikk">
+      </a>
+      <span class="slant"></span>
+      <ul class="menu">
+        <li><a href="#goToForm" class="to_form">Aktuális</a></li>
+        <li><a href="#goToForm" class="to_form">Politika</a></li>
+        <li><a href="#goToForm" class="to_form">Sportal</a></li>
+        <li><a href="#goToForm" class="to_form">Gazdaság</a></li>
+        <li><a href="#goToForm" class="to_form">Sztárvilág</a></li>
+        <li><a href="#goToForm" class="to_form">Életmód</a></li>
+        <li><a href="#goToForm" class="to_form">Videó</a></li>
+        <li><a href="#goToForm" class="to_form">Auto</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/doors.js"></script>
+
+<!-- Imitate type for first comment -->
+<script src="js/index.umd.js"></script>
+<script>
+  new TypeIt('#myElement', {
+    cursor: false,
+    loop: true,
+  }).go()
+  $(window).scroll(function () {
+    var wt = $(window).scrollTop()
+    var wh = $(window).height()
+    var et = $('.point').offset().top
+    var eh = $('.point').outerHeight()
+    var dh = $(document).height()
+    if (wt + wh >= et || wh + wt == dh || eh + et < wh) {
+      setTimeout(() => {
+        $('.printing').hide(300)
+        $('.hidden-date').show()
+        $('.first-comment').show(500)
+      }, 4000)
+    }
+  })
+</script>
+
+<link rel="stylesheet" href="css/comnew.css">
+
+<!-- Quiz script -->
+<script defer="">
+  $(function () {
+    var e = [],
+      t = '',
+      i = ''
+    $('#show-test').click(function (e) {
+      e.preventDefault(),
+        $('.quiz-item').removeClass('active'),
+        $(this).parents('.quiz-item').next().addClass('active')
+    }),
+      $('.quiz-item .btn-main-2').click(function (n) {
+        n.preventDefault(),
+          $('.quiz-item').removeClass('active'),
+          $(this).parents('.quiz-item').next().addClass('active'),
+          (i = $(this).parents('.quiz-item').find('p').text()),
+          (t = $(this).parents('.quiz-item').hasClass('-range')
+            ? $(this)
+              .parents('.quiz-item')
+              .find('input[type=radio]:checked')
+              .val()
+            : $(this).parents('.quiz-item').hasClass('-checkboxes')
+              ? $(this)
+                .parents('.quiz-item')
+                .find('input[type=checkbox]:checked')
+                .parent()
+                .text()
+              : $(this)
+                .parents('.quiz-item')
+                .find('input[type=radio]:checked')
+                .parent()
+                .text()),
+          e.push({
+            q: i,
+            a: t,
+          })
+      }),
+      $('.last-click').click(function (t) {
+        t.preventDefault(),
+          $('#order_form_1')
+            .find("input[name='question_answer']")
+            .val(JSON.stringify(e)),
+          $('.result-block').show()
+      }),
+      $(document).on('submit', '#order_form_1', function () {
+        if (0 != t.length) {
+          var e = $(this).serializeArray(),
+            i = !1
+          $(e).each(function (t, n) {
+            'question_answer' == n.name && (n.value = JSON.parse(n.value)),
+            'address' == n.name && (i = !0),
+            ('name' != n.name &&
+              'phone' != n.name &&
+              'address' != n.name &&
+              'client_data' != n.name) ||
+            delete e[t]
+          }),
+            (e = e.filter(function (e) {
+              return null != e
+            })),
+          0 == i &&
+          $(this).append("<input type='hidden' name='address' />"),
+            $(this).find("input[name='address']").val(JSON.stringify(e))
+        }
+      })
+  })
+</script>
+
+<!-- Scroll to form -->
+<script>
+  $('a').addClass('to_form')
+
+  $('.to_form').on('touchend, click', function (e) {
+    e.preventDefault()
+    $('body,html').animate(
+      {
+        scrollTop: $('#goToForm').offset().top - 25,
+      },
+      400
+    )
+  })
+</script>
+
+<!-- Integration -->
+<script>
+  var phonePattern = {
+    'au': '+61 _ ____ ___??_',
+    'jp': '+81 _ ____ ____?_',
+    'uk': '+44 ____ ?______',
+    'fr': '+33 _ __ __ __ __',
+    'de': '+49 ___ ____ ?__',
+    'at': '+43 ____ ____ ?__',
+    'ch': '+41 __ ___ __ __ ?__',
+    'ru': '+7 (___) ___-__-__',
+    'ua': '+38-___-___-__-__',
+    'by': '+375 ___ ___ ___',
+    'kz': '+7 ___ ___ ____',
+    'kg': '+___ ___ __ __ __',
+    'md': '0 ___ _____',
+    'az': '+___-__-___-__-__',
+    'ge': '+995 ___ __ __ __',
+    'es': '+34 ___ __ __ __',
+    'pe': '+51 ___ ___ _?_',
+    'cl': '+56 _ ____ ____',
+    'ar': '+54 __ ____ ____',
+    'co': '+57 _______??_',
+    'mx': '+52 __ ____ ____',
+    'it': '+39-___-___-____',
+    'esp': '+34 ___ __ __ __',
+    'pt': '+351 ___ ___ ___',
+    'br': '+55 __ ___?_ ____',
+    'prt': '+351 ___ ___ ___',
+    'id': '+62 ___ ___ ___',
+    'gr': '+30 ___ _______',
+    'cy': '+357 __ ______',
+    'ro': '+40 ___ ___ ___',
+    'bg': '+359 ___ ___ ___',
+    'cz': '+420 ___ ___ ___',
+    'sk': '+421 ___ ___ ___',
+    'si': '+386 _ ___ __ __',
+    'pl': '+48 ___ ___ ___',
+    'al': '+355 __ ___ ___?_',
+    'rs': '+381 __ _____?_',
+    'ph': '+63 _ ____ __?_',
+    'hu': '+36 __ _______',
+    'hr': '+385 _ ____ __?_',
+    'ba': '+387 __ ______',
+    /* --- */
+  }
+
+  const inputs = document.querySelectorAll('form input[name="phone"]')
+
+
+  function validate_form(form, alert_text = "Please enter valid phone number") {
+    var input_ln = form.querySelector('input[name="phone"]').value.replace(/ /g, '').length,
+      pattern_ln = phonePattern[form.getAttribute('geo')].replace(/\?| /g, '').length;
+    if (input_ln >= pattern_ln) return true;
+    else { alert(alert_text); return false; }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    var isTimeoutSeted = false;
+    var inputInterval;
+
+    function createInterval(input) {
+      if (!isTimeoutSeted) {
+        isTimeoutSeted = true;
+
+        inputInterval = setInterval(() => {
+          input.selectionStart = input.value.length
+          input.setSelectionRange(input.value.length, input.value.length);
+        }, 15)
+      }
+    }
+
+    function deleteInterval() {
+      clearInterval(inputInterval)
+      isTimeoutSeted = false;
+    }
+
+    function setSelectionStart(input) {
+      input.selectionStart = input.value.length
+    }
+
+    function mask(event) {
+      var input = event.currentTarget;
+      var geo = input.form.getAttribute('geo');
+      var matrix = phonePattern[geo];
+      var i = 0;
+      var def = matrix.replace(/\D/g, "");
+      var val = input.value.replace(/\D/g, "");
+
+      if (!event.type == "blur") {
+        setSelectionStart(input)
+      }
+
+      createInterval(input)
+
+      if (event.type == "blur") {
+        deleteInterval()
+        if (input.value.length == 2) {
+          input.value = ""
+        }
+      }
+
+      if (def.length >= val.length) {
+        val = def
+      };
+
+      input.value = matrix.replace(/./g, function (a) {
+        return /[_|?\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a
+      });
+
+
+    };
+
+    inputs.forEach(input => {
+      input.addEventListener("input", mask, false);
+      input.addEventListener("blur", mask, false);
+      input.addEventListener("focus", mask, false);
+    })
+  });
+
+  $(document).ready(function () {
+    // Load GDPR
+    $(document).gdprCookieLaw({
+      moreLinkHref: '/privacypolicy',
+      theme: 'theme-1',
+      position: 'bottom-right',
+      width: '760px',
+      margin: '15px',
+      animation: 'fade-slide',
+      btnAcceptText: 'Ok'
+    });
+  });
+
+</script>
+
+
+</body>
+</html>
